@@ -2,5 +2,5 @@
 
 Official home at https://lncd.pitt.edu 
 
-Also see [[/lncdtools]] and https://github.com/LabNeuroCogDevel/LNCDR
+Also see [lncdtools](/lncdtools), [LNCDR](https://github.com/LabNeuroCogDevel/LNCDR), and the [previous github page](https://labneurocogdevel.github.io/)
 
