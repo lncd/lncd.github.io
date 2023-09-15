@@ -1,6 +1,15 @@
-# Laboratory of Neurocognitive development
+---
+title: About
+---
+# Laboratory of Neurocognitive Development
 
-Official home at https://lncd.pitt.edu 
+Find our official home at [https://lncd.pitt.edu](https://lncd.pitt.edu)
 
-Also see [lncdtools](/lncdtools), [LNCDR](https://github.com/LabNeuroCogDevel/LNCDR), and the [previous github page](https://labneurocogdevel.github.io/)
+Also see
+  * [lncdtools](/lncdtools) - shell tools package for neuroimaging (doc site)
+  * [LNCDR](https://github.com/LabNeuroCogDevel/LNCDR) - R package (code site)
+  *  and the [previous github page](https://labneurocogdevel.github.io/)
 
+Additional github.io pages:
+  * [amarojha.github.io](//amarojha.github.io)
+  * [shanemckeon.github.io/](//shanemckeon.github.io/)

@@ -1,0 +1,63 @@
+title: LNCD
+description: Laboratory of Neuro-Cognitive Development
+url: "https://lncd.github.io/"
+# https://pages.github.com/themes/
+# https://jekyllthemes.dev/tag/github-pages/
+#theme: minima
+#
+# https://github.com/topics/jekyll-theme
+#
+remote_theme: just-the-docs/just-the-docs
+#remote_theme: mmistakes/minimal-mistakes    # index includes "Recent Posts"
+#remote_theme: TaylanTatli/Moon              # index content ignored. very reactive 
+#remote_theme: daattali/beautiful-jekyll     # header+title too much
+#remote_theme: mattvh/solar-theme-jekyll     # too small, forces about page
+#remote_theme: alexander-heimbuch/millidocs  # links only colored on hover
+
+# themes that do not work out-of-the-box with remote_theme
+#remote_theme: alshedivat/al-folio         #  Invalid CSS after "...content-width: "
+#remote_theme: kitian616/jekyll-TeXt-theme # Error:  File to import not found or unreadable: skins/.
+#remote_theme: Huxpro/huxpro.github.io     # ERROR `/css/bootstrap.min.css' not found.
+#remote_theme: Timmy/ulx-docs              # requires /_layouts/default.html
+
+# poole themes -- require stye file
+# wget https://raw.githubusercontent.com/poole/poole/master/styles.scss
+#remote_theme: poole/poole  #  ERROR `/styles.css'
+#remote_theme: poole/hyde
+#remote_theme: poole/lanyon # ERROR `/public/css/poole.css' not found.
+
+
+markdown: kramdown
+# if using eg. highight.js from theme
+# disable jekyll's highlighter
+#kramdown:
+#  syntax_highlighter_opts:
+#    disable : true
+
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag # for poole
+  - jekyll-include-cache # for minimal-mistakes
+  # github enabled by default, cannot toggle
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
+# poole themes use sass
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - readme.md
